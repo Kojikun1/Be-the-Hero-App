@@ -14,7 +14,7 @@ routes.post('/ongs', OngController.store);
 
 routes.get('/profile', ProfileController.index)
 
-routes.get('/incident', IncidentController.index);
+routes.get('/incidents', IncidentController.index);
 routes.post("/incident",IncidentController.store);
 routes.delete('/incidents/:id',IncidentController.delete );
 
