@@ -33,7 +33,7 @@ export default function Profile(){
                    Authorization: ongId
                }
            });
-           setIncidents(incidents.filter(item => item.id != id));
+           setIncidents(incidents.filter(item => item.id !== id));
         }catch(err){
             alert("erro ao deletar caso tente novamente");
         }
